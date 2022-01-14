@@ -1,19 +1,17 @@
-function GEEKFORGEEKS() {
+function Validation() {
     var name =
-        document.forms["RegForm"]["Name"];
+        document.forms["Register"]["Name"];
     var email =
-        document.forms["RegForm"]["EMail"];
-    var phone =
-        document.forms["RegForm"]["Telephone"];
+        document.forms["Register"]["Email"];
 
     var password =
-        document.forms["RegForm"]["Password"];
+        document.forms["Register"]["Password"];
     var confirmPassword =
-        document.forms["RegForm"]["Confirm_Password"];
+        document.forms["Register"]["Confirm_Password"];
     var male =
-        document.forms["RegForm"]["Gender"][0];
+        document.forms["Register"]["Gender"][0];
     var female =
-        document.forms["RegForm"]["Gender"][1];
+        document.forms["Register"]["Gender"][1];
 
     if (name.value == "") {
         window.alert("Please enter your name.");
