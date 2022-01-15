@@ -7,7 +7,7 @@ function bg(){
     }
     if (female === sessionStorage.Gender) {
         document.body.style.background="#bf275b";
-}
+    }
 }
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
