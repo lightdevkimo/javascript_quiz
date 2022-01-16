@@ -1,3 +1,4 @@
+
 //Change The Color Of The Background
 function bg(){
     const male='male';
@@ -7,8 +8,9 @@ function bg(){
     }
     if (female === sessionStorage.Gender) {
         document.body.style.background="#bf275b";
-    }
 }
+}
+
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
@@ -221,3 +223,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+
