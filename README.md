@@ -2,7 +2,9 @@
 
 javascript_quiz
 
-#ITI 3 Month JavaScript Project PHP Quena Group one
+#ITI 3 Month PHP Quena Group one
+
+JavaScript Project
 
 Karim Alaa Hamed Nafady (lightdevkimo)
 
