@@ -1,5 +1,5 @@
 
-//Change The Color Of The Background
+//Change The Color Of The Background 
 function bg(){
     const male='male';
     const female='female';
